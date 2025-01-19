@@ -2,7 +2,7 @@
 import { useEffect, useState, useMemo, useCallback } from "react";
 import getQuestions from "@/lib/get-questions";
 import Quiz from "@/components/quized";
-import QuizCustomizations from "@/components/QuizCustomizations";
+import QuizCustomizations from "@/components/QuizCustomizationss";
 
 export default function Home() {
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);

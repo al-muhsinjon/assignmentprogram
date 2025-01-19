@@ -3,18 +3,15 @@
 import { useState, useEffect } from "react";
 import { getCurrentGame } from "@/lib/gameStorage";
 
-interface QuizCustomizationssProps {
+interface QuizCustomizationsProps {
   handleStart: (playerName: string) => void;
-  questions: QuizQuestion[];
 }
 
-const QuizCustomizationss: React.FC<QuizCustomizationssProps> = ({
+const QuizCustomizations: React.FC<QuizCustomizationsProps> = ({
   handleStart,
-  questions,
 }) => {
   const [name, setName] = useState("");
   const [showModal, setShowModal] = useState(false);
-  console.log(questions);
 
   useEffect(() => {
     const currentGame = getCurrentGame();
@@ -85,8 +82,7 @@ const QuizCustomizationss: React.FC<QuizCustomizationssProps> = ({
           <div className="bg-white p-5 rounded-lg shadow-xl">
             <h3 className="text-lg font-bold mb-4">Previous Game Found</h3>
             <p className="mb-4">
-              You have an unfinished game. Do you want to continue or start a
-              new game?
+              You have an unfinished game. Do you want to continue or start a new game?
             </p>
             <div className="flex justify-end space-x-4">
               <button
@@ -109,4 +105,5 @@ const QuizCustomizationss: React.FC<QuizCustomizationssProps> = ({
   );
 };
 
-export default QuizCustomizationss;
+export default QuizCustomizations;
+
