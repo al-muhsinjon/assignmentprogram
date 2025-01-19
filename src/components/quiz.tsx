@@ -23,7 +23,6 @@ export default function Quiz({
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [timeLeft, setTimeLeft] = useState(15);
   const [isAnswered, setIsAnswered] = useState(false);
-  const username = localStorage.getItem("username") || "Anonymous";
 
   useEffect(() => {
     if (currentGame) {
