@@ -1,0 +1,44 @@
+ASSIGNMENT BERILISHI:
+
+
+1. Barcha mamlakatlarni olish uchun https://restcountries.com/v3.1/all API havolasidan foydalaning va ular orasidan tasodifiy bitta mamlakatni tanlang va uning nomi va bayrog'ini ekranga chiqaring.
+
+
+
+2. 4 ta variantni tanlanadigan tugmalar sifatida ko'rsating. Bir variant 1-banddagi tasodifiy tanlangan mamlakatning poytaxti bo'lishi kerak. 3 ta boshqa variant boshqa tasodifiy mamlakatlarning poytaxtlari bo'lishi kerak.
+
+
+
+3. Foydalanuvchi ma'lum bir variantni tanlagandan so'ng (yoki vaqt tugab qolganda), toʻgʻri variant yashil rangda taʼkidlanishi kerak. Agar foydalanuvchi noto'g'ri variantni tanlasa, tanlangan variant qizil rangda ta'kidlanishi kerak va siz baribir tog'ri variant qaysiligini yashil rangda ko'rsatishingiz kerak.
+
+
+
+4. Bosqich tugagach, keyingi bosqich boshlanib boshqa mamlakat va variantlar namoyish bo'lishi kerak. Ushbu jarayon 10 marotaba takrorlanishi kerak.
+
+
+
+5. Har bir bosqichdan keyin foydalanuvchining ballarini hisoblang va ularni ekranda ko'rsating.
+
+
+
+6. O'yin oxirida umumiy ball asosida qiziqarli xabarni ko'rsating. Masalan: "Siz dahosiz", "Siz yaxshiroq bajara olasiz", "Keyingi safar ko'proq harakat qiling" va hokazo.
+
+
+
+7. Har bir savol uchun taymerni 15 soniya o'rnating. Agar foydalanuvchi 15 soniya ichida javobini bermasa, ushbu bosqich yutqizilgan deb hisoblanadi va o'yin keyingi bosqichga o'tadi. Hech qanday ball berilmaydi.
+
+
+
+8. Barcha 10 daraja tugagandan so'ng, barcha ballarni no’llashtirib va o'yinni yangi tasodifiy mamlakatlar bilan 1-bosqichdan boshlaydigan "Yana o'ynash" tugmasini ko'rsating.
+
+
+
+9. O'yin boshlanishidan avval, foydalanuvchidan ismini so'rang. Ushbu foydalanuvchi o'ynab bo'lgandan so'ng uning eng yaxshi natijasini saqlab qoling. Ekranda shu natijani va umumiy shu o'yinda barcha fordalanuvchilar tomonidan erishilgan eng yaxshi natija kimga tegishlikligini namoyish qiling
+
+
+
+10. Bir tugma hosil qiling. U bosilganda o'yinni o'ynagan barcha o'yinchilarning ismlari va ulalrning eng yaxshi natijalarini ko'rsating.
+
+
+
+11. Foydalanuvchi keyingi safar o'yinga kirayotib ismini kiritsa, agar ushbu ism oldin ham kiritilgan bo'lsa, foydalanuvchi uchun yangi object ochilmasin. Va uning eng yaxshi natijasi, shu ism bilan mavjud bo'lgan objectga joylashtirilsin.
